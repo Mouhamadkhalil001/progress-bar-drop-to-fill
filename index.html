@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop to Fill Progress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">Drop to Fill</h3>
+        
+        <!-- Drops that will fall -->
+        <div class="drops-area" id="dropsArea"></div>
+        
+        <!-- Container to be filled -->
+        <div class="vessel">
+            <div class="liquid" id="liquid">
+                <div class="wave"></div>
+                <div class="wave wave2"></div>
+            </div>
+            <div class="progress-text" id="progressText">0%</div>
+            
+            <!-- Splash effects container -->
+            <div class="splash-container" id="splashContainer"></div>
+        </div>
+        
+        <!-- User info display -->
+        <div class="user-info">
+            <span class="user">Mouhamadkhalil001drop</span>
+            <span class="timestamp">2025-03-20 19:02:22</span>
+        </div>
+        
+        <!-- Restart button -->
+        <button class="restart-btn" id="restartBtn">
+            Restart Fill
+        </button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
